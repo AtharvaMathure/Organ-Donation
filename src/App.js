@@ -15,6 +15,8 @@ import Eye from './components/Eye';
 import Liver from './components/Liver';
 import Ngo from './components/Ngo';
 import Laws from './components/Laws';
+import Chatbot from './components/Chatbot';
+
 
 
 
@@ -39,12 +41,18 @@ function App() {
         <Route path="/liver" element={<Liver />} />
         <Route path="/ngo" element={<Ngo />} />
         <Route path="/laws" element={<Laws />} />
+        
+        
+        
+
+
 
 
 
        
       </Routes>
       <Home/>
+      <Chatbot/>
       <About/>
       <Services/>
       <Footer/>
